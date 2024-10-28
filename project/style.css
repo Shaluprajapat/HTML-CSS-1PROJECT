@@ -1,0 +1,129 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+
+}
+html,body{
+  height: 100%;
+  weight:100%;
+
+}
+main{
+
+  height: 100%;
+  width:100%;
+  background-color: rgb(243, 243, 69);
+}
+
+nav{
+ padding: 20px;
+ margin: 30px;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.part2{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+   gap: 70px;
+}
+
+nav h2{
+  font-weight: 500;
+  font-size: 40px;
+}
+nav a{
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+section{
+  padding: 20px 50px;
+}
+
+
+section .hero-text1{
+/* background-color: red; */
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+/* padding: 20px; */
+
+}
+.hero-text1 h1{
+
+  font-size: 170px;
+  text-transform: uppercase;
+  font-weight: 900;
+ 
+}
+ .hero-text1 .video{
+  height: 80px;
+  width: 300px;
+  margin: 40px;
+  border-radius: 100PX;
+  background-color: black;
+  gap: 20px;
+  background-image: url(https://elements-resized.envatousercontent.com/envato-shoebox/b1c6/0d54-4626-4a92-ba3f-46ac7948027b/IMG_2861.jpg?w=800&cf_fit=scale-down&mark-alpha=18&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark4.png&q=85&format=auto&s=509f33da91fda6c4872da9cfd4ce79796ae358587bdf2dc6cb0e0b4ff95bef5c);
+  padding: 5px;
+  border: 2px solid #121111;
+ }
+ .video .play{
+
+ height: 90%;
+ width: 50px;
+ border-radius: 50%;
+ background-color:rgb(220, 220, 60);
+ /* border:2px solid white; */
+ border: 3px solid #121111;
+display: flex;
+align-items: center;
+justify-content: center;
+
+ }
+ .play i{
+
+  font-size: 30px;
+
+ }
+ section .hero-text2{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+  /* padding: 20px; */
+  
+  }
+  .hero-text2 h1{
+  
+    font-size: 170px;
+    text-transform: uppercase;
+    font-weight: 900;
+   
+  }
+ .hero-text2 p{
+  font-size: 20px;
+  text-transform: uppercase;
+  width:450px;
+  /* line-height: 200px;
+  font-weight: 900; */
+  font-weight: 100;
+ }
+
+ .image{
+  /* margin: 30px; */
+  height:499px;
+  width: 100%;
+  rotate: 45%;
+  /* border-top-left-radius: 100PX;
+  border-top-right-radius: 100PX; */
+  background-color: black;
+  /* background-repeat: no-repeat; */
+  background-image: url(https://elements-resized.envatousercontent.com/envato-shoebox/b1c6/0d54-4626-4a92-ba3f-46ac7948027b/IMG_2861.jpg?w=800&cf_fit=scale-down&mark-alpha=18&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark4.png&q=85&format=auto&s=509f33da91fda6c4872da9cfd4ce79796ae358587bdf2dc6cb0e0b4ff95bef5c);
+
+ }
